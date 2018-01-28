@@ -1,0 +1,13 @@
+{
+  "name": "dontinjureme",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamescostian/dontinjureme.git"
+  },
+  "license": "MIT"
+}
