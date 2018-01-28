@@ -6,7 +6,7 @@ async function main() {
     {
       const mouthguardType= await answer( 'You should get a mouthgaurd. Pick an option',['Cheap','Better Fit','Expensive'])
       if(mouthguardType==='Cheap')
-        suggest('Get a stock mouthguard','url for image', 'url to go to when click image')
+        suggest('Get a stock mouthguard','https://sentinelmouthguards.com/wp-content/uploads/2014/08/43237-default-xl-1.jpg', 'https://www.google.com/search?q=buy+stock+mouthguard&rlz=1C1CHBF_enUS779US779&source=univ&tbm=shop&tbo=u&sa=X&ved=0ahUKEwigpcbh7_rYAhUq7IMKHVgiDvMQsxgIKg&biw=1536&bih=734&dpr=1.25')
       else if(mouthguardType==='Better Fit')
         suggest('Get a boil and bite mouthguard','url','urlforclick')
       else
