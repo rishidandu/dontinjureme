@@ -2,8 +2,11 @@
   "name": "dontinjureme",
   "version": "0.1.0",
   "description": "",
+  "dependencies": {
+    "express": "4"
+  },
   "scripts": {
-    "build": ""
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
