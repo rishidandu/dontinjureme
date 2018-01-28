@@ -15,7 +15,22 @@ async function main() {
     else if(footballOption==='Bruising from Collisions')
     {
       const position=await answer('What position do you play?', ['Quarterback','Running Back','Fullback/Linebacker','Lineman']) 
-      if(position==='Quarterback') {}
+      if(position==='Quarterback')
+        suggest('Get shoulder pads that are lightweight, and designed for mobility, agility, and range of motion','url','urlwhenclick')
+      else if(position==='Running Back')
+        suggest('Get shoulder pads that have a bit more cushioning, and designed for mobility, agility, with more protection when running through traffic','url','urlwhenclick')
+      else if(position==='Fullback/Linebacker')
+        suggest('Get shoulder pads that are lightweight, and designed for serious potection without restricting fast movement','url','urlwhenclick')
+      else 
+        suggest('Get shoulder pads that are designed for ultimate protection against the hardest of hits','url','urlwhenclick')
+    }
+    else if(footballOption==='Jewels Getting Smashed')
+    {
+      const shape=await answer('What shape do you prefer?',['Traditional Triangular','Banana'])
+      if (shape==='Traditional Triangular')
+        suggest('Get one that looks like this','urlfor triangular','url to click')
+      else
+        suggest('Get one that looks like this','url for banana','url to click')
     }
       
     // ... continue
